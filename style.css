@@ -1,0 +1,46 @@
+body{
+    background: rgb(120,41,189);
+    background: linear-gradient(90deg, rgba(120,41,189,1) 0%, rgba(64,40,123,1) 100%);
+}
+
+.card{
+    margin: auto;
+    margin-top: 15%;
+    background: none;
+    border: none;
+    color: white;
+}
+
+h1{
+    font-size: 100px;
+}
+
+h3{
+    font-size: 40px;
+    color: rgb(246, 246, 246);
+}
+
+h2{
+    font-size: 50px;
+}
+
+img{
+    height: 50px;
+    transition: 500ms;
+}
+
+img:hover{
+    height: 52px;
+    transition: 500ms;
+}
+
+img:active{
+    filter: brightness(80%);
+    transition: 500ms;
+}
+
+@media screen and (width < 438px) {
+    h1, h2, h3{
+        text-align: center;
+    }
+}
